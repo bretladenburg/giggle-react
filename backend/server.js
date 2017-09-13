@@ -8,7 +8,7 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const http = require('http');
 const socketio = require('socket.io');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 
 const app = express();
